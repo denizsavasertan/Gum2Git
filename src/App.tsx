@@ -35,7 +35,7 @@ function App() {
         </nav>
 
         <div className="p-4 border-t border-[#333]">
-          <p className="text-xs text-gray-500 text-center">Top Sende Baby v1.0</p>
+          <p className="text-xs text-gray-500 text-center">www.savasertan.com</p>
         </div>
       </div>
 
