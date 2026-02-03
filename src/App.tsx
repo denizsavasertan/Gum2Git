@@ -11,7 +11,7 @@ function App() {
   return (
     <div className="flex h-screen bg-[#01000e] text-white overflow-hidden font-sans">
       {/* Sidebar */}
-      <div className="w-64 bg-[#1a1a1a] border-r border-[#333] flex flex-col">
+      <div className="w-64 bg-[#01000e] border-r border-[#333] flex flex-col">
         <div className="p-6 border-b border-[#333]">
           <div className="flex justify-center">
             <img src={logoBig} alt="Gum2Git" className="w-full h-auto object-contain" />
@@ -41,7 +41,7 @@ function App() {
       </div>
 
       {/* Main Content */}
-      <div className="flex-1 overflow-auto bg-[#121212]">
+      <div className="flex-1 overflow-auto bg-[#01000e]">
         {activeTab === 'dashboard' ? <Dashboard /> : <Settings />}
       </div>
     </div>

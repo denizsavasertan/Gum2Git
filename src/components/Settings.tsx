@@ -85,7 +85,7 @@ export const Settings: React.FC = () => {
             </h2>
 
             <div className="space-y-4">
-                <div className="bg-[#1a1a1a] p-4 rounded-lg border border-[#333]">
+                <div className="bg-[#01000e] p-4 rounded-lg border border-[#333]">
                     <h3 className="text-lg font-semibold mb-4 text-purple-400 flex justify-between items-center">
                         Gumroad Configuration
                         <button
@@ -117,7 +117,7 @@ export const Settings: React.FC = () => {
                     </div>
                 </div>
 
-                <div className="bg-[#1a1a1a] p-4 rounded-lg border border-[#333]">
+                <div className="bg-[#01000e] p-4 rounded-lg border border-[#333]">
                     <h3 className="text-lg font-semibold mb-4 text-blue-400 flex justify-between items-center">
                         GitHub Configuration
                         <button
@@ -177,7 +177,7 @@ export const Settings: React.FC = () => {
                     </div>
                 </div>
 
-                <div className="bg-[#1a1a1a] p-4 rounded-lg border border-[#333]">
+                <div className="bg-[#01000e] p-4 rounded-lg border border-[#333]">
                     <h3 className="text-lg font-semibold mb-4 text-orange-400 flex justify-between items-center">
                         Repository Overrides (Multi-Repo)
                         <button
@@ -233,7 +233,7 @@ export const Settings: React.FC = () => {
                     </div>
                 </div>
 
-                <div className="bg-[#1a1a1a] p-4 rounded-lg border border-[#333]">
+                <div className="bg-[#01000e] p-4 rounded-lg border border-[#333]">
                     <h3 className="text-lg font-semibold mb-4 text-green-400">App Settings</h3>
                     <div className="flex items-center justify-between mb-4">
                         <label className="flex items-center gap-2 cursor-pointer">

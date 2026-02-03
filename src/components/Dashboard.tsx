@@ -37,7 +37,7 @@ export const Dashboard: React.FC = () => {
         <div className="p-6 text-white max-w-4xl mx-auto h-full flex flex-col">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
                 {/* Status Card */}
-                <div className="bg-[#1a1a1a] p-4 rounded-lg border border-[#333] flex items-center justify-between">
+                <div className="bg-[#01000e] p-4 rounded-lg border border-[#333] flex items-center justify-between">
                     <div>
                         <p className="text-gray-400 text-sm">Service Status</p>
                         <h3 className="text-xl font-bold text-green-400 flex items-center gap-2">
@@ -48,7 +48,7 @@ export const Dashboard: React.FC = () => {
                 </div>
 
                 {/* Last Check Card */}
-                <div className="bg-[#1a1a1a] p-4 rounded-lg border border-[#333] flex items-center justify-between">
+                <div className="bg-[#01000e] p-4 rounded-lg border border-[#333] flex items-center justify-between">
                     <div>
                         <p className="text-gray-400 text-sm">Last Checked</p>
                         <h3 className="text-xl font-bold text-blue-400 flex items-center gap-2">
@@ -62,7 +62,7 @@ export const Dashboard: React.FC = () => {
                 </div>
 
                 {/* Total Sales Card */}
-                <div className="bg-[#1a1a1a] p-4 rounded-lg border border-[#333] flex items-center justify-between">
+                <div className="bg-[#01000e] p-4 rounded-lg border border-[#333] flex items-center justify-between">
                     <div>
                         <p className="text-gray-400 text-sm">Total Processed Customers</p>
                         <h3 className="text-xl font-bold text-purple-400 flex items-center gap-2">
@@ -74,7 +74,7 @@ export const Dashboard: React.FC = () => {
             </div>
 
             {/* Logs Console */}
-            <div className="flex-1 bg-[#1a1a1a] rounded-lg border border-[#333] flex flex-col overflow-hidden shadow-inner">
+            <div className="flex-1 bg-[#01000e] rounded-lg border border-[#333] flex flex-col overflow-hidden shadow-inner">
                 <div className="p-3 bg-[#222] border-b border-[#333] flex items-center justify-between">
                     <div className="flex items-center gap-2">
                         <Terminal size={16} className="text-gray-400" />
