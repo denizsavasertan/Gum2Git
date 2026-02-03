@@ -1,20 +1,21 @@
 import { useState } from 'react';
 import { Settings } from './components/Settings';
 import { Dashboard } from './components/Dashboard';
-import { LayoutDashboard, Settings as SettingsIcon, GitBranch } from 'lucide-react';
+import { LayoutDashboard, Settings as SettingsIcon } from 'lucide-react';
+
+import logoBig from './assets/logo_big.png';
 
 function App() {
   const [activeTab, setActiveTab] = useState<'dashboard' | 'settings'>('dashboard');
 
   return (
-    <div className="flex h-screen bg-[#242424] text-white overflow-hidden font-sans">
+    <div className="flex h-screen bg-[#01000e] text-white overflow-hidden font-sans">
       {/* Sidebar */}
       <div className="w-64 bg-[#1a1a1a] border-r border-[#333] flex flex-col">
         <div className="p-6 border-b border-[#333]">
-          <h1 className="text-xl font-bold bg-gradient-to-r from-pink-500 to-orange-400 bg-clip-text text-transparent flex items-center gap-2">
-            <GitBranch className="text-orange-400" />
-            Gum2Git
-          </h1>
+          <div className="flex justify-center">
+            <img src={logoBig} alt="Gum2Git" className="w-full h-auto object-contain" />
+          </div>
         </div>
 
         <nav className="flex-1 p-4 space-y-2">
